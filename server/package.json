@@ -12,7 +12,6 @@
     "both-dev": "concurrently \"npm run dev\" \"npm --prefix ../client/ start\""
   },
   "dependencies": {
-    "@babel/node": "^7.20.7",
     "axios": "^1.2.0",
     "concurrently": "^7.6.0",
     "cookie-parser": "^1.4.6",
@@ -22,6 +21,14 @@
     "express-validator": "^6.14.2",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.7.5",
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/node": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "concurrently": "^7.5.0",
     "nodemon": "^2.0.20"
   }
 }
